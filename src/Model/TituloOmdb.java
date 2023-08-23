@@ -1,2 +1,4 @@
-package Model;public record TituloOmdb() {
+package Model;
+
+public record TituloOmdb(String title, String year, String runtime) {
 }

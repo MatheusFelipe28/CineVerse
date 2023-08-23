@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
         Filme meuFilme = new Filme("O poderoso chefão", 1970);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
@@ -63,7 +64,5 @@ public class Main {
         System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
         System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
-
-
     }
 }
